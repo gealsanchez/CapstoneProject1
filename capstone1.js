@@ -123,7 +123,7 @@ for (let i = 0; i < speakers.length; i += 1) {
   dynadivs1.classList.add('mb-2', 'mt-2', 'me-2', 'ms-2');
 
   const dynadivs2 = document.createElement('div');
-  dynadivs2.classList.add('dynadivs2', 'm-2')
+  dynadivs2.classList.add('dynadivs2', 'm-2');
 
   const dynaimgs = document.createElement('img');
   dynaimgs.src = speakers[i].Image;
