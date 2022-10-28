@@ -37,5 +37,3 @@ menu = [dynaaa, dynaab, dynaac, dynaad, dynaae, dynaaf]
 for (let i = 0; i < 6; i += 1) {
     overlay.appendChild(menu[i]);
 }
-
-
