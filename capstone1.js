@@ -2,28 +2,28 @@ const program = [
   {
     Name: 'Lectures',
     Description: 'Listen to the speakers from various countries talking about old and new trendings',
-    FeaturedImage: "img/program_01.png",
+    FeaturedImage: 'img/program_01.png',
   },
   {
     Name: 'Forums',
     Description: 'Discuss findings on how art contributes to stabilizes the local economy',
-    FeaturedImage: "img/program_02.png",
+    FeaturedImage: 'img/program_02.png',
   },
   {
     Name: 'Collections',
     Description: 'A source of pride and revenue for hundreds of creative professionals',
-    FeaturedImage: "img/program_03.png",
+    FeaturedImage: 'img/program_03.png',
   },
   {
     Name: 'Exhibitions',
     Description: 'A source of pride and revenue for hundreds of creative professionals',
-    FeaturedImage: "img/program_04.png",
+    FeaturedImage: 'img/program_04.png',
 
   },
   {
     Name: 'Courses',
     Description: 'Discuss findings on how art contributes to stabilizes the local economy',
-    FeaturedImage: "img/program_05.png",
+    FeaturedImage: 'img/program_05.png',
   },
 ];
 
@@ -87,20 +87,20 @@ cancel.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
-const dynamain = document.querySelector('.mainprogram')
+const dynamain = document.querySelector('.mainprogram');
 
 for (let i = 0; i < program.length; i += 1) {
   const dynadiv = document.createElement('div');
   dynadiv.className = 'dynadiv';
-  dynadiv.style.background = '#rgba(255, 255, 255, 0.1);'
+  dynadiv.style.background = '#rgba(255, 255, 255, 0.1);';
   const dynaimg = document.createElement('img');
   dynaimg.src = program[i].FeaturedImage;
   const dynah2 = document.createElement('h2');
   dynah2.textContent = program[i].Name;
   dynah2.style.color = '#rgb(255, 51, 0)';
   const dynap = document.createElement('p');
-  dynap.style.border = 'none'
-  dynap.style.color = '#fff'
+  dynap.style.border = 'none';
+  dynap.style.color = '#fff';
   dynap.textContent = program[i].Description;
   dynadiv.appendChild(dynaimg);
   dynadiv.appendChild(dynah2);
@@ -111,16 +111,16 @@ for (let i = 0; i < program.length; i += 1) {
 const dynawholebutton = document.querySelector('.wholeprogrambutton');
 dynawholebutton.classList.add('d-flex', 'justify-content-center');
 const dynaprogrambutton = document.createElement('a');
-dynaprogrambutton.textContent = 'SEE THE WHOLE PROGRAM'
-dynaprogrambutton.classList.add('btn', 'btn-dark', 'mt-5')
+dynaprogrambutton.textContent = 'SEE THE WHOLE PROGRAM';
+dynaprogrambutton.classList.add('btn', 'btn-dark', 'mt-5');
 dynawholebutton.appendChild(dynaprogrambutton);
 
-const dynaspeakers = document.querySelector('.speakers')
+const dynaspeakers = document.querySelector('.speakers');
 
 for (let i = 0; i < speakers.length; i += 1) {
   const dynadivs1 = document.createElement('div');
   dynadivs1.className = 'dynadivs1';
-  dynadivs1.classList.add('mb-2', 'mt-2', 'me-2', 'ms-2')
+  dynadivs1.classList.add('mb-2', 'mt-2', 'me-2', 'ms-2');
 
   const dynadivs2 = document.createElement('div');
   dynadivs2.classList.add('dynadivs2', 'm-2')
@@ -130,19 +130,19 @@ for (let i = 0; i < speakers.length; i += 1) {
 
   const dynah2s = document.createElement('h2');
   dynah2s.textContent = speakers[i].Name;
-  dynah2s.classList.add('me-3')
+  dynah2s.classList.add('me-3');
 
   const dynaps1 = document.createElement('p');
   dynaps1.className = 'dynaps1';
   dynaps1.style.border = 'none';
   dynaps1.textContent = speakers[i].Profession;
-  dynaps1.classList.add('me-5')
+  dynaps1.classList.add('me-5');
 
   const dynaps2 = document.createElement('p');
   dynaps2.className = 'dynaps2';
   dynaps2.style.border = 'none';
   dynaps2.textContent = speakers[i].Description;
-  dynaps2.classList.add('me-5')
+  dynaps2.classList.add('me-5');
 
   dynadivs1.appendChild(dynaimgs);
   dynadivs2.appendChild(dynah2s);
@@ -174,7 +174,7 @@ dynaad.textContent = 'Sponsor';
 dynaae.textContent = 'News';
 dynaaf.textContent = 'Campaign';
 
-menu = [dynaaa, dynaab, dynaac, dynaad, dynaae, dynaaf]
+const menu = [dynaaa, dynaab, dynaac, dynaad, dynaae, dynaaf];
 
 for (let i = 0; i < 6; i += 1) {
   overlay.appendChild(menu[i]);

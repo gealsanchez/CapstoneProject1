@@ -3,11 +3,11 @@ const overlay = document.querySelector('.open');
 const cancel = document.querySelector('.close');
 
 hamburger.addEventListener('click', () => {
-    overlay.style.display = 'flex';
+  overlay.style.display = 'flex';
 });
 
 cancel.addEventListener('click', () => {
-    overlay.style.display = 'none';
+  overlay.style.display = 'none';
 });
 
 const dynaaa = document.createElement('a');
@@ -32,8 +32,8 @@ dynaad.textContent = 'Sponsor';
 dynaae.textContent = 'News';
 dynaaf.textContent = 'Campaign';
 
-menu = [dynaaa, dynaab, dynaac, dynaad, dynaae, dynaaf]
+const menu = [dynaaa, dynaab, dynaac, dynaad, dynaae, dynaaf];
 
 for (let i = 0; i < 6; i += 1) {
-    overlay.appendChild(menu[i]);
+  overlay.appendChild(menu[i]);
 }
