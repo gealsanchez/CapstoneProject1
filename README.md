@@ -6,16 +6,12 @@ Capstone 1
 
 # Online Version
 
-https://gealsanchez.github.io/Capstone1/
+https://gealsanchez.github.io/CapstoneProject1/
 
 ## Built With
 
 - HTML & CSS & Javascript
 - GitHub
-
-## Live Pull Request
-
-[Live Pull Request Link](https://github.com/gealsanchez/portfolio/pull/1)
 
 ## Authors
 
@@ -36,6 +32,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Wali Muhammad
+- Cindy Shin
 
 ## 📝 License
 
