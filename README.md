@@ -2,15 +2,15 @@
 
 # Project Name
 
-Professional Portfolio Phase 1 Repository
+Capstone 1
 
 # Online Version
 
-https://gealsanchez.github.io/mobileVersion/
+https://gealsanchez.github.io/Capstone1/
 
 ## Built With
 
-- HTML & CSS
+- HTML & CSS & Javascript
 - GitHub
 
 ## Live Pull Request
@@ -35,8 +35,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Francis Uche
-- Giorgi Bokuchava
+- Wali Muhammad
 
 ## 📝 License
 
