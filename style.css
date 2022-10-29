@@ -1,7 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=M+PLUS+Rounded+1c:wght@800&display=swap');
 
 nav {
-  margin-right: 5%;
+  margin: 0%;
+}
+
+.container {
+  padding-bottom: 5%;
+}
+
+.footertext h6 {
+  margin-top: 1%;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.koreantext {
+  display: none;
+}
+
+.twocassions {
+  font-size: 15px;
+  padding: 0% 3%;
+}
+
+.summitabout h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container h5 {
+  font-size: 14px;
+}
+
+.summitabout {
+  padding: 5%;
+}
+
+footer {
+  padding-top: 1%;
+  background-color: #ffffff;
 }
 
 .open {
@@ -30,15 +68,23 @@ nav {
   padding: 8px;
 }
 
-.container h1 {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-weight: 800;
-  font-size: 28px;
+.container h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
   line-height: 20px;
   margin-bottom: 4%;
 }
 
+.container h1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 20px;
+}
+
 .container .date {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
   font-size: 20px;
   line-height: 20px;
   margin-bottom: 4%;
@@ -54,12 +100,15 @@ nav {
 }
 
 .container p {
-  margin: 0%;
+  margin: 2% 0% 10% 0%;
   border: 2px solid white;
 }
 
 footer img {
-  height: 50px;
+  margin-top: 1%;
+  margin-left: 2%;
+  filter: invert(1%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+  height: 25px;
 }
 
 .container img {
@@ -67,6 +116,8 @@ footer img {
 }
 
 .desktopmenu ul {
+  padding-top: 1%;
+  padding-right: 5%;
   display: none;
   list-style: none;
 }
@@ -77,20 +128,30 @@ footer img {
 }
 
 .social {
+  margin: 0%;
+  background-color: #494442;
   display: none;
 }
 
 .social ul {
+  margin: 0%;
+  padding-right: 5%;
   list-style: none;
-  margin-right: 0%;
 }
 
 .social li {
-  padding: 1% 1%;
+  padding: 1px 1% 3px 1%;
 }
 
 .social img {
   filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+}
+
+.social a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .logo {
@@ -109,8 +170,8 @@ footer img {
 }
 
 .programwrapper {
-  margin-top: 5%;
-  padding: 15% 3% 15% 3%;
+  margin-top: 0%;
+  padding: 10% 3% 10% 3%;
   background-image: url("img/pattern_bg.png");
   background-color: rgb(39, 42, 50);
   background-repeat: repeat;
@@ -151,14 +212,14 @@ hr {
 }
 
 .sponsordiv {
-  margin-top: 5%;
-  padding-top: 2%;
-  padding-bottom: 9%;
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 5%;
   background-color: rgb(39, 42, 50);
 }
 
 .sponsor img {
-  filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+  filter: invert(50%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
   height: 30px;
   margin: 4%;
 }
@@ -166,11 +227,6 @@ hr {
 .aboutimage {
   margin-top: 2%;
   height: 200px;
-}
-
-.aboutlogo {
-  margin: 5% 2%;
-  height: 50px;
 }
 
 .imgwrapper {
@@ -210,6 +266,47 @@ hr {
     display: none;
   }
 
+  .sponsor img {
+    filter: invert(50%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+    height: 60px;
+    margin: 4%;
+  }
+
+
+  footer img {
+    margin-top: 0%;
+    margin-left: 10%;
+    filter: invert(1%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+    height: 25px;
+  }
+
+  .koreantext {
+    display: none;
+  }
+
+  footer {
+    padding-top: 1%;
+    background-color: #ffffff;
+  }
+
+  .summitabout h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .summitabout small {
+    font-size: 16px;
+  }
+
+
+  .container h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 20px;
+    margin-bottom: 4%;
+  }
+
   .social {
     display: block;
   }
@@ -226,6 +323,11 @@ hr {
     margin-bottom: 4%;
   }
 
+  .container p {
+    font-size: 24px;
+    margin: 5% 0%;
+  }
+
   .container .date {
     font-size: 32px;
     line-height: 20px;
@@ -240,6 +342,7 @@ hr {
 
 @media (min-width: 375px) and (max-width: 1400px) {
   .container-fluid {
+    margin: 0%;
     background-image: url("img/desktop_bg.png");
     background-repeat: repeat;
     background-position: center;
@@ -249,6 +352,25 @@ hr {
 @media (min-width: 764px) and (max-width: 1024px) {
   .logo {
     display: block;
+  }
+
+
+  footer img {
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+    height: 25px;
+  }
+
+  .koreantext {
+    display: block;
+  }
+
+  footer {
+    padding-top: 1%;
+    background-color: #494442;
+  }
+
+  .container {
+    padding-bottom: 5%;
   }
 
   .programwrapper {
@@ -282,7 +404,6 @@ hr {
   .mainprogram {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto auto;
   }
 
   .speakers {
@@ -303,17 +424,55 @@ hr {
   }
 
   footer img {
+    margin-left: 20%;
     height: 50px;
   }
 
   .speakers img {
     height: 150px;
   }
+
+  .footertext h6 {
+    color: #fff;
+    width: 70%;
+    font-size: 12px;
+    font-weight: bold;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1400px) {
+  .koreantext {
+    display: block;
+  }
+
+
+  footer img {
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+    height: 25px;
+  }
+
+  .container h5 {
+    font-size: 16px;
+  }
+
   .about {
     width: 90%;
+  }
+
+  .container {
+    padding-bottom: 3%;
+  }
+
+  .container p {
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+
+  .container h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    line-height: 20px;
+    margin-bottom: 4%;
   }
 
   .logo {
@@ -343,17 +502,17 @@ hr {
     font-weight: 800;
     font-size: 76px;
     line-height: 20px;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
   }
 
   .container .date {
     font-size: 40px;
     line-height: 20px;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
   }
 
   .container p {
-    width: 55%;
+    width: 70%;
   }
 
   .dynadiv {
@@ -406,7 +565,7 @@ hr {
   }
 
   .sponsor img {
-    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
+    filter: invert(50%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
     height: 100px;
     margin: 3%;
   }
@@ -425,11 +584,6 @@ hr {
     margin: 3%;
   }
 
-  .aboutlogo {
-    margin: 5% 0% 5% 25%;
-    height: 100px;
-  }
-
   .redmask {
     width: auto;
     padding: 30% 10% 5% 25%;
@@ -442,5 +596,22 @@ hr {
 
   .buttonprogram {
     margin-left: 50%;
+  }
+
+  footer img {
+    margin-left: 20%;
+    height: 50px;
+  }
+
+  footer {
+    padding-top: 1%;
+    background-color: #494442;
+  }
+
+  .footertext h6 {
+    color: #fff;
+    width: 70%;
+    font-size: 12px;
+    font-weight: bold;
   }
 }
