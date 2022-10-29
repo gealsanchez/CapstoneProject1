@@ -115,16 +115,6 @@ dynaprogrambutton.textContent = 'SEE THE WHOLE PROGRAM';
 dynaprogrambutton.classList.add('btn', 'btn-dark', 'mt-5');
 dynawholebutton.appendChild(dynaprogrambutton);
 
-let mql = window.matchMedia('(max-width: 764px)');
-
-// if (mql){
-//   dynaprogrambutton.textContent='Join Container Festival';
-//   dynaprogrambutton.style.backgroundColor='rgb(255, 51, 0)'
-// } else if (mql1) {
-//   dynaprogrambutton.textContent='SEE THE WHOLE PROGRAM';
-//   dynaprogrambutton.classList.add('btn', 'btn-dark', 'mt-5');
-// }
-
 const dynaspeakers = document.querySelector('.speakers');
 
 for (let i = 0; i < speakers.length; i += 1) {
