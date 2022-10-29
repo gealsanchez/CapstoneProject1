@@ -4,8 +4,8 @@ nav {
   margin: 0%;
 }
 
-.wholeprogrambutton .btn{
-  background-color: rgb(255, 51, 0,1);
+.wholeprogrambutton .btn {
+  background-color: rgb(255, 51, 0, 1);
 }
 
 .container {
@@ -348,11 +348,11 @@ hr {
     display: block;
   }
 
-  .wholeprogrambutton .btn{
+  .wholeprogrambutton .btn {
     background-color: rgb(44, 44, 44);
   }
 
-  .sponsordiv{
+  .sponsordiv {
     display: none;
   }
 
@@ -442,12 +442,15 @@ hr {
     display: block;
   }
 
-  .wholeprogrambutton .btn{
+  .wholeprogrambutton .btn {
     background-color: rgb(44, 44, 44);
   }
 
-  .sponsordiv{
+  .sponsordiv {
     display: none;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: rgb(39, 42, 50);
   }
 
   footer img {
@@ -558,12 +561,6 @@ hr {
 
   .speakers img {
     height: 200px;
-  }
-
-  .sponsordiv {
-    padding-top: 2%;
-    padding-bottom: 5%;
-    background-color: rgb(39, 42, 50);
   }
 
   .sponsor img {
