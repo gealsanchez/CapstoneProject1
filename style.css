@@ -4,6 +4,10 @@ nav {
   margin: 0%;
 }
 
+.wholeprogrambutton .btn{
+  background-color: rgb(255, 51, 0,1);
+}
+
 .container {
   padding-bottom: 5%;
 }
@@ -344,6 +348,14 @@ hr {
     display: block;
   }
 
+  .wholeprogrambutton .btn{
+    background-color: rgb(44, 44, 44);
+  }
+
+  .sponsordiv{
+    display: none;
+  }
+
   footer img {
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(108%) contrast(100%);
     margin-left: 20%;
@@ -428,6 +440,14 @@ hr {
 @media (min-width: 1024px) and (max-width: 1400px) {
   .koreantext {
     display: block;
+  }
+
+  .wholeprogrambutton .btn{
+    background-color: rgb(44, 44, 44);
+  }
+
+  .sponsordiv{
+    display: none;
   }
 
   footer img {
