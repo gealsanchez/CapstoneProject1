@@ -8,6 +8,10 @@ Capstone 1
 
 https://gealsanchez.github.io/CapstoneProject1/
 
+# Presentation video
+
+[https://www.loom.com/share/6d2ea78c99f547a3a1c7d2bedcb6c66c]
+
 ## Built With
 
 - HTML & CSS & Javascript
