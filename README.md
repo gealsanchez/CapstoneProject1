@@ -12,16 +12,16 @@ https://gealsanchez.github.io/CapstoneProject1/
 
 <h3 align="center">Screenshot</h3>
 <p align="center">
-  <img width="500" src="screenshots/image2.png">
+  <img width="800" src="screenshots/image2.png">
 </P>
 <p align="center">
-  <img width="500" src="screenshots/image3.png">
+  <img width="800" src="screenshots/image3.png">
 </P>
 <p align="center">
-  <img width="500" src="screenshots/image4.png">
+  <img width="800" src="screenshots/image4.png">
 </P>
 <p align="center">
-  <img width="500" src="screenshots/image5.png">
+  <img width="800" src="screenshots/image5.png">
 </P>
 <p align="center">
   <img width="500" src="screenshots/image6.png">
@@ -31,12 +31,6 @@ https://gealsanchez.github.io/CapstoneProject1/
 </P>
 <p align="center">
   <img width="500" src="screenshots/image8.png">
-</P>
-<p align="center">
-  <img width="500" src="screenshots/image11.png">
-</P>
-<p align="center">
-  <img width="500" src="screenshots/image12.png">
 </P>
 
 # Presentation video
