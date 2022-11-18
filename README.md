@@ -8,6 +8,24 @@ Capstone 1
 
 https://gealsanchez.github.io/CapstoneProject1/
 
+## Screenshots
+
+<h3 align="center">Screenhot</h3>
+<p align="center">
+  <img width="500" src="screenshot/image2.png">
+</P>
+<p align="center">
+  <img width="500" src="screenshot/image3.png">
+</P>
+<p align="center">
+  <img width="500" src="screenshot/image4.png">
+</P>
+<p align="center">
+  <img width="500" src="screenshot/image5.png">
+</P>
+
+
+
 # Presentation video
 
 [https://www.loom.com/share/6d2ea78c99f547a3a1c7d2bedcb6c66c]
