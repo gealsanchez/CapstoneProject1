@@ -33,22 +33,11 @@ https://gealsanchez.github.io/CapstoneProject1/
   <img width="500" src="screenshots/image8.png">
 </P>
 <p align="center">
-  <img width="500" src="screenshots/image9.png">
-</P>
-<p align="center">
-  <img width="500" src="screenshots/image10.png">
-</P>
-<p align="center">
   <img width="500" src="screenshots/image11.png">
 </P>
 <p align="center">
   <img width="500" src="screenshots/image12.png">
 </P>
-<p align="center">
-  <img width="500" src="screenshots/image13.png">
-</P>
-
-
 
 # Presentation video
 
