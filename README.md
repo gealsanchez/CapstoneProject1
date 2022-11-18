@@ -1,12 +1,16 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/gealsanchez-blueviolet)
 
 # Project Name
 
-Capstone 1
+Container Fluid Arts Festival Homepage Capstone 1
 
 # Online Version
 
 https://gealsanchez.github.io/CapstoneProject1/
+
+# Source Code
+
+https://github.com/gealsanchez/CapstoneProject1
 
 ## Screenshots
 
